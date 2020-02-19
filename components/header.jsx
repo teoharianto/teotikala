@@ -36,7 +36,7 @@ export default class Header extends React.Component {
                     </a>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                <div className="collapse navbar-collapse" id="navbars-rs-food">
+                    <div className="navbar-collapse" id="navbars-rs-food">
                          <ul className="navbar-nav ml-auto">
                              <li className="nav-item"><a className="nav-link" href="/">Home</a></li>
                              <li className="nav-item"><a className="nav-link" href="/bistro">Tikala Bistro</a></li>
@@ -44,7 +44,7 @@ export default class Header extends React.Component {
                              <li className="nav-item"><a className="nav-link" href="/about">About</a></li>
                              <li className="nav-item"><a className="nav-link" href="/contact">Contact</a></li>
                          </ul>
-                     </div>
+                    </div>
                 </Navbar.Collapse>
                 </div>
             </Navbar>
