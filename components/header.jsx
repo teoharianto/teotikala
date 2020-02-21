@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { Children } from 'react';
 import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
+import ActiveLink from './activeLink'
 
-export default class Header extends React.Component {
-    
+export default class Header extends React.Component {    
      
     render(){
         return(
@@ -16,11 +16,11 @@ export default class Header extends React.Component {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <div className="navbar-collapse" id="navbars-rs-food">
                          <ul className="navbar-nav ml-auto">
-                             <li className="nav-item"><a className="nav-link" href="/">Home</a></li>
-                             <li className="nav-item"><a className="nav-link" href="/bistro">Tikala Bistro</a></li>
-                             <li className="nav-item"><a className="nav-link" href="/catering">Tikala Catering</a></li>
-                             <li className="nav-item"><a className="nav-link" href="/about">About</a></li>
-                             <li className="nav-item"><a className="nav-link" href="/contact">Contact</a></li>
+                             <ActiveLink href="/">Home</ActiveLink>
+                             <ActiveLink href="/bistro">Tikala Bistro</ActiveLink>
+                             <ActiveLink href="/catering">Tikala Catering</ActiveLink>
+                             <ActiveLink href="/about">About</ActiveLink>
+                             <ActiveLink href="/contact">Contact</ActiveLink>
                          </ul>
                     </div>
                 </Navbar.Collapse>

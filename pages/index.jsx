@@ -10,8 +10,7 @@ import extStyle from '../vendor/awesomeSlider.css';
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 
 export default class IndexPage extends React.Component{
-
-    
+  
     render(){
         return(
             <Layout>
@@ -31,7 +30,6 @@ export default class IndexPage extends React.Component{
                     fillParent={true}
                     cssModule={extStyle}>
                     <div className="darken-background" data-src="/static/assets/template/images/slider-01.jpg" >
-                    
                     <li className="text-center">
 					<div className="row" style={{marginTop:"30vh"}}>
 						<div className="col-md-12">

@@ -214,7 +214,7 @@ button:focus{
     height: 100%;
     position: static;
     display: block;
-    z-index: 2;
+    z-index: 1;
     background-color: rgba(25,25,25,0.7);
     background-blend-mode: darken;
 }
