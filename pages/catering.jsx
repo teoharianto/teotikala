@@ -101,10 +101,10 @@ export default class CateringPage extends React.Component{
                                         </div>
 					            </div>
                             </div>
-                            <div class="col-lg-4 col-md-6 special-grid lunch">
-                                <div class="gallery-single fix">
-                                    <img src="/static/assets/template/images/img-04.jpg" class="img-fluid" alt="Image" />
-                                        <div class="why-text">
+                            <div className="col-lg-4 col-md-6 special-grid lunch">
+                                <div className="gallery-single fix">
+                                    <img src="/static/assets/template/images/img-04.jpg" className="img-fluid" alt="Image" />
+                                        <div className="why-text">
                                             <h4>Special Lunch 1</h4>
                                             <p>Sed id magna vitae eros sagittis euismod.</p>
                                             <h5> $15.79</h5>

@@ -207,7 +207,16 @@ button:focus{
 -------------------------------------------------------------------*/
 
 .cover-slides{
-	height: 100vh;
+    height: 100vh;
+}
+.darken-background{
+    width: 100%;
+    height: 100%;
+    position: static;
+    display: block;
+    z-index: 2;
+    background-color: rgba(20,20,20,0.5);
+    background-blend-mode: darken;
 }
 .slides-navigation a {
 	background: #cfa671;
@@ -231,12 +240,11 @@ button:focus{
 .cover-slides .container{
 	height: 100%;
 	position: relative;
-	z-index: 2;
 }
 .cover-slides .container > .row {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
-	align-items: center;
+    align-items: center;
 }
 .cover-slides .container > .row {
     height: 100%;

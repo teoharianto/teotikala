@@ -1,33 +1,17 @@
 import React from 'react';
 import Layout from '../components/layout';
 import Head from 'next/head';
+import AwesomeSlider from 'modified-react-awesome-slider';
+import withAutoplay from 'modified-react-awesome-slider/dist/autoplay';
+import 'modified-react-awesome-slider/dist/styles.css';
+import extStyle from '../vendor/awesomeSlider.css';
+
+
+const AutoplaySlider = withAutoplay(AwesomeSlider);
 
 export default class IndexPage extends React.Component{
 
-    componentDidMount(){
-        //An array of assets
-        let scripts = [
-            { src: "/static/assets/template/js/jquery-3.2.1.min.js" },
-            { src: "/static/assets/template/js/popper.min.js" },
-            { src: "/static/assets/template/js/bootstrap.min.js" },
-            { src: "/static/assets/template/js/jquery.superslides.min.js" },
-            { src: "/static/assets/template/js/images-loded.min.js" },
-            { src: "/static/assets/template/js/isotope.min.js" },
-            { src: "/static/assets/template/js/baguetteBox.min.js" },
-            { src: "/static/assets/template/js/form-validator.min.js" },
-            { src: "/static/assets/template/js/contact-form-script.js" },
-            { src: "/static/assets/template/js/custom.js" },
-        ]
-        //Append the script element on each iteration
-        scripts.map(item => { 
-            const script = document.createElement("script");
-            script.async = true;
-            script.src = item.src;
-            document.body.appendChild(script);
-            document.head.appendChild(script);
-        })    
-     }
-
+    
     render(){
         return(
             <Layout>
@@ -37,51 +21,32 @@ export default class IndexPage extends React.Component{
                 </Head>
 
                 {/* Slide */}
+                <div className="cover-slides" >
+                <ul>
+                <AutoplaySlider
+                    play={true}
+                    cancelOnInteraction={false} // should stop playing on user interaction
+                    interval={2000}
+                    bullets={false}
+                    fillParent={true}
+                    cssModule={extStyle}>
+                    <div className="darken-background" data-src="/static/assets/template/images/slider-01.jpg" >
+                    
+                    <li className="text-center">
+					<div className="row" style={{marginTop:"30vh"}}>
+						<div className="col-md-12">
+							<h1 className="m-b-20"><strong>Welcome To Tikala <br /> Bistro & Catering</strong></h1>
+							<p className="m-b-40">Taste sensations that you never get anywhere else.</p>
+							<p><a className="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservation</a></p>
+						</div>
+					</div>
+                    </li>
+                    
+                    </div>
+                </AutoplaySlider>
+                </ul>
                 
-                <div id="slides" className="cover-slides">
-		        <ul className="slides-container">
-			    <li className="text-center">
-				<img src="/static/assets/template/images/slider-01.jpg" alt="" />
-				<div className="container">
-					<div className="row">
-						<div className="col-md-12">
-							<h1 className="m-b-20"><strong>Welcome To Tikala <br /> Bistro & Catering</strong></h1>
-							<p className="m-b-40">Taste sensations that you never get anywhere else.</p>
-							<p><a className="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservation</a></p>
-						</div>
-					</div>
-				</div>
-			    </li>
-                <li className="text-center">
-				<img src="/static/assets/template/images/slider-02.jpg" alt="" />
-				<div className="container">
-					<div className="row">
-						<div className="col-md-12">
-							<h1 className="m-b-20"><strong>Welcome To Tikala <br /> Bistro & Catering</strong></h1>
-							<p className="m-b-40">Taste sensations that you never get anywhere else.</p>
-							<p><a className="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservation</a></p>
-						</div>
-					</div>
-				</div>
-			    </li>
-                <li className="text-center">
-				<img src="/static/assets/template/images/slider-03.jpg" alt="" />
-				<div className="container">
-					<div className="row">
-						<div className="col-md-12">
-							<h1 className="m-b-20"><strong>Welcome To Tikala <br /> Bistro & Catering</strong></h1>
-							<p className="m-b-40">Taste sensations that you never get anywhere else.</p>
-							<p><a className="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservation</a></p>
-						</div>
-					</div>
-				</div>
-			    </li>
-		        </ul>
-		        <div className="slides-navigation">
-			    <a href="#" className="next"><i className="fa fa-angle-right" aria-hidden="true"></i></a>
-			    <a href="#" className="prev"><i className="fa fa-angle-left" aria-hidden="true"></i></a>
-		        </div>
-	            </div>
+                </div>
 
         {/* About */}
         
@@ -212,6 +177,8 @@ export default class IndexPage extends React.Component{
 		</div>
 	    </div>
         </Layout>
+        
         )
+        
     }
 }
