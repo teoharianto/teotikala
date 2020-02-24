@@ -17,6 +17,7 @@ export default class IndexPage extends React.Component{
                 <Head>
                     <title key="title">Tikala - Home</title>
                     <link rel="icon" href="/static/assets/template/images/favicon.ico" />
+					<script async data-id="33184" src="https://cdn.widgetwhats.com/script.min.js"></script>
                 </Head>
 
                 {/* Slide */}
