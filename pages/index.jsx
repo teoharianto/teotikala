@@ -73,8 +73,8 @@ export default class IndexPage extends React.Component{
 			<div className="row">
 				<div className="col-lg-12">
 					<div className="heading-title text-center">
-						<h2>Menu Gallery</h2>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+						<h2>Tikala's Gallery</h2>
+						<p>Blend of cozy ambience and the tasty menu</p>
 					</div>
 				</div>
 			</div>
@@ -102,7 +102,7 @@ export default class IndexPage extends React.Component{
         
         {/* Customer Review */}
 
-        <div className="customer-reviews-box">
+        {/* <div className="customer-reviews-box">
 		<div className="container">
 			<div className="row">
 				<div className="col-lg-12">
@@ -137,11 +137,11 @@ export default class IndexPage extends React.Component{
 				</div>
 			</div>
 		</div>
-	    </div>
+	    </div> */}
 
 
         {/* Contact */}
-        <div className="contact-imfo-box">
+        {/* <div className="contact-imfo-box">
 		<div className="container">
 			<div className="row">
 				<div className="col-md-4">
@@ -167,13 +167,13 @@ export default class IndexPage extends React.Component{
 					<div className="overflow-hidden">
 						<h4>Location</h4>
 						<p className="lead">
-							800, Lorem Street, US
+							Jl. Suryopranoto No.73, RW.7, Petojo Selatan, Jakarta, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10160
 						</p>
 					</div>
 				</div>
 			</div>
 		</div>
-	    </div>
+	    </div> */}
         </Layout>
         
         )

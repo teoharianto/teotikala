@@ -19,7 +19,8 @@ export default class Header extends React.Component {
                              <ActiveLink href="/">Home</ActiveLink>
                              <ActiveLink href="/bistro">Tikala Bistro</ActiveLink>
                              <ActiveLink href="/catering">Tikala Catering</ActiveLink>
-                             <ActiveLink href="/about">About</ActiveLink>
+                             {/* <ActiveLink href="/about">About</ActiveLink> */}
+                             <ActiveLink href="/promo">Special Offer</ActiveLink>
                              <ActiveLink href="/contact">Contact</ActiveLink>
                          </ul>
                     </div>

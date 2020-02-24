@@ -12,16 +12,13 @@ export default class Footer extends React.Component{
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <h3>Opening hours</h3>
-                            <p><span className="text-color">Monday: </span>Closed</p>
-                            <p><span className="text-color">Tue-Wed :</span> 9:Am - 10PM</p>
-                            <p><span className="text-color">Thu-Fri :</span> 9:Am - 10PM</p>
-                            <p><span className="text-color">Sat-Sun :</span> 5:PM - 10PM</p>
+                            <p className="lead"><span className="text-color">Everyday: </span>10.00 AM - 22.00 PM</p>
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <h3>Contact information</h3>
-                            <p className="lead">Ipsum Street, Lorem Tower, MO, Columbia, 508000</p>
-                            <p className="lead"><a href="#">+01 2000 800 9999</a></p>
-                            <p><a href="#"> info@admin.com</a></p>
+                            <p className="lead">Address : Jl. Suryopranoto No.73, RW.7, Petojo Selatan, Jakarta, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10160</p>
+                            <p className="lead"><a href="#">Phone : (021) 3520172</a></p>
+                            <p><a href="#"> </a></p>
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <h3>Subscribe</h3>
@@ -47,8 +44,8 @@ export default class Footer extends React.Component{
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-12">
-                                    <p className="company-name">All Rights Reserved. &copy; 2018 <a href="#">Tikala Restaurant</a> Design By :
-					<a href="https://html.design/">html design</a></p>
+                                    <p className="company-name">All Rights Reserved. &copy; 2020 <a href="#">Tikala</a> Design By : ShdGry Based on :
+					<a href="https://html.design/"> html design</a></p>
                                 </div>
                             </div>
                         </div>
