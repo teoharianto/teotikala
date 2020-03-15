@@ -1,46 +1,34 @@
 import React from 'react';
 import Layout from '../components/layout';
 import Head from 'next/head';
+import MenuCateringList from "../components/cp_catering";
+import withData from "../utils/apollo";
 
-export default class CateringPage extends React.Component{
+export default withData(props => {
 
-    componentDidMount(){
-        //An array of assets
-        let scripts = [
-            { src: "/static/assets/template/js/jquery-3.2.1.min.js" },
-            { src: "/static/assets/template/js/popper.min.js" },
-            { src: "/static/assets/template/js/bootstrap.min.js" },
-            { src: "/static/assets/template/js/jquery.superslides.min.js" },
-            { src: "/static/assets/template/js/images-loded.min.js" },
-            { src: "/static/assets/template/js/isotope.min.js" },
-            { src: "/static/assets/template/js/baguetteBox.min.js" },
-            { src: "/static/assets/template/js/form-validator.min.js" },
-            { src: "/static/assets/template/js/contact-form-script.js" },
-            { src: "/static/assets/template/js/custom.js" },
-        ]
-        //Append the script element on each iteration
-        scripts.map(item => { 
-            const script = document.createElement("script");
-            script.async = true;
-            script.src = item.src;
-            document.body.appendChild(script);
-            document.head.appendChild(script);
-        })    
-     }
 
-    render(){
         return(
             <Layout>
                 <Head>
                     <title key="title">Tikala - Catering</title>
                     <link rel="icon" href="/static/assets/template/images/favicon.ico" />
                     <script async data-id="33184" src="https://cdn.widgetwhats.com/script.min.js"></script>
+                    <script src="/static/assets/template/js/jquery-3.2.1.min.js"></script>
+	                <script src="/static/assets/template/js/popper.min.js"></script>
+	                <script src="/static/assets/template/js/bootstrap.min.js"></script>
+	                <script src="/static/assets/template/js/jquery.superslides.min.js"></script>
+	                <script src="/static/assets/template/js/images-loded.min.js"></script>
+	                <script src="/static/assets/template/js/isotope.min.js"></script>
+	                <script src="/static/assets/template/js/baguetteBox.min.js"></script>
+	                <script src="/static/assets/template/js/form-validator.min.js"></script>
+                    <script src="/static/assets/template/js/contact-form-script.js"></script>
+                    <script src="/static/assets/template/js/custom.js"></script>
                 </Head>
                 <div className="all-page-title page-breadcrumb">
                     <div className="container text-center">
                         <div className="row">
                             <div className="col-lg-12">
-                                <h1>Special Menu</h1>
+                                <h1>Catering Package</h1>
                             </div>
                         </div>
                     </div>
@@ -52,70 +40,46 @@ export default class CateringPage extends React.Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="heading-title text-center">
-                                    <h2>Special Menu</h2>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                                    <h2>Our Package</h2>
+                                    <p>The tasty taste never forget</p>
                                 </div>
                             </div>
                         </div>
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <div className="special-menu text-center">
-                                    <div className="button-group filter-button-group">
-                                        <button className="active" data-filter="*">All</button>
-							            <button data-filter=".drinks">Drinks</button>
-							            <button data-filter=".lunch">Lunch</button>
-							            <button data-filter=".dinner">Dinner</button>
-                                    </div>
+                        <div className="row" style={{marginBottom:"-5%"}}>
+                            <div className="col-md-12">
+                                <div className="heading-title">
+                                    <h2>Wedding Package</h2>
+                                    <p>The tasty taste never forget</p>
                                 </div>
                             </div>
                         </div>
-                        <div className="row special-list">
-                            <div className="col-lg-4 col-md-6 special-grid drinks">
-                                <div className="gallery-single fix">
-                                    <img src="/static/assets/template/images/img-01.jpg" className="img-fluid" alt="Image" />
-                                        <div className="why-text">
-                                            <h4>Special Drinks 1</h4>
-                                            <p>Sed id magna vitae eros sagittis euismod.</p>
-                                            <h5> $7.79</h5>
-                                        </div>
-					            </div>
-                            </div>
-
-                            <div className="col-lg-4 col-md-6 special-grid drinks">
-                                <div className="gallery-single fix">
-                                    <img src="/static/assets/template/images/img-02.jpg" className="img-fluid" alt="Image" />
-                                        <div className="why-text">
-                                            <h4>Special Drinks 2</h4>
-                                            <p>Sed id magna vitae eros sagittis euismod.</p>
-                                            <h5> $9.79</h5>
-                                        </div>
-					            </div>
-                            </div>
-
-                            <div className="col-lg-4 col-md-6 special-grid drinks">
-                                <div className="gallery-single fix">
-                                    <img src="/static/assets/template/images/img-03.jpg" className="img-fluid" alt="Image" />
-                                        <div className="why-text">
-                                            <h4>Special Drinks 3</h4>
-                                            <p>Sed id magna vitae eros sagittis euismod.</p>
-                                            <h5> $10.79</h5>
-                                        </div>
-					            </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 special-grid lunch">
-                                <div className="gallery-single fix">
-                                    <img src="/static/assets/template/images/img-04.jpg" className="img-fluid" alt="Image" />
-                                        <div className="why-text">
-                                            <h4>Special Lunch 1</h4>
-                                            <p>Sed id magna vitae eros sagittis euismod.</p>
-                                            <h5> $15.79</h5>
-                                        </div>
-					            </div>
+                        <MenuCateringList />
+                        <div className="row" style={{marginBottom:"-5%",marginTop:"5%"}}>
+                            <div className="col-md-12">
+                                <div className="heading-title">
+                                    <h2>Birthday Package</h2>
+                                    <p>The tasty taste never forget</p>
+                                </div>
                             </div>
                         </div>
+                        <MenuCateringList />
+                        <div className="row" style={{marginBottom:"-5%",marginTop:"5%"}}>
+                            <div className="col-md-12">
+                                <div className="heading-title">
+                                    <h2>Meeting Package</h2>
+                                    <p>The tasty taste never forget</p>
+                                </div>
+                            </div>
+                        </div>
+                        <MenuCateringList />
                     </div>
                 </div>
 
+                
+                    <div className="container">
+                        
+                    </div>
+             
 
                 {/* Quote */}
                 <div className="qt-box qt-background">
@@ -130,8 +94,7 @@ export default class CateringPage extends React.Component{
                         </div>
                     </div>
                 </div>
-
         </Layout>
         )
-    }
-}
+    
+})

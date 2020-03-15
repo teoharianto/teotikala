@@ -4,14 +4,13 @@ import Head from 'next/head';
 import AwesomeSlider from 'modified-react-awesome-slider';
 import withAutoplay from 'modified-react-awesome-slider/dist/autoplay';
 import 'modified-react-awesome-slider/dist/styles.css';
-import extStyle from '../vendor/awesomeSlider.css';
-
+import withData from "../utils/apollo";
+import SliderList from "../components/cp_sliderIndex";
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 
-export default class IndexPage extends React.Component{
+export default withData(props => {
   
-    render(){
         return(
             <Layout>
                 <Head>
@@ -21,16 +20,31 @@ export default class IndexPage extends React.Component{
                 </Head>
 
                 {/* Slide */}
-                <div className="cover-slides" >
+
+				<SliderList />
+
+                {/* <div className="cover-slides" >
                 <ul>
                 <AutoplaySlider
                     play={true}
                     cancelOnInteraction={false} // should stop playing on user interaction
-                    interval={2000}
+                    interval={4000}
                     bullets={false}
                     fillParent={true}
                     cssModule={extStyle}>
                     <div className="darken-background" data-src="/static/assets/template/images/slider-01.jpg" >
+                    <li className="text-center">
+					<div className="row" style={{marginTop:"30vh"}}>
+						<div className="col-md-12">
+							<h1 className="m-b-20"><strong>Welcome To Tikala <br /> Bistro & Catering</strong></h1>
+							<p className="m-b-40">Taste sensations that you never get anywhere else.</p>
+							<p><a className="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservation</a></p>
+						</div>
+					</div>
+                    </li>
+					</div>
+					
+					<div className="darken-background" data-src="/static/assets/template/images/slider-02.jpg" >
                     <li className="text-center">
 					<div className="row" style={{marginTop:"30vh"}}>
 						<div className="col-md-12">
@@ -45,7 +59,7 @@ export default class IndexPage extends React.Component{
                 </AutoplaySlider>
                 </ul>
                 
-                </div>
+                </div> */}
 
         {/* About */}
         
@@ -61,7 +75,7 @@ export default class IndexPage extends React.Component{
 						<h4>Tikala Bistro and Catering</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque auctor suscipit feugiat. Ut at pellentesque ante, sed convallis arcu. Nullam facilisis, eros in eleifend luctus, odio ante sodales augue, eget lacinia lectus erat et sem. </p>
 						<p>Sed semper orci sit amet porta placerat. Etiam quis finibus eros. Sed aliquam metus lorem, a pellentesque tellus pretium a. Nulla placerat elit in justo vestibulum, et maximus sem pulvinar.</p>
-						<a className="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservation</a>
+						<a className="btn btn-lg btn-circle btn-outline-new-white" href="/contact">Reservation</a>
 					</div>
 				</div>
 			</div>
@@ -179,5 +193,4 @@ export default class IndexPage extends React.Component{
         
         )
         
-    }
-}
+})

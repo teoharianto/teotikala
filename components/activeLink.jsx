@@ -6,7 +6,8 @@ import { withRouter } from 'next/router'
 
 const ActiveLink = ({ children, router, href }) => {
   const style = {
-    marginRight: 10,
+    paddingRight: '10px',
+    paddingLeft: '10px',
     color: router.pathname === href ? 'white' : 'black',
     background: router.pathname === href ? '#d0a772' : 'transparent',
   }

@@ -10,18 +10,18 @@ export default class Header extends React.Component {
             <Navbar bg="light" expand="lg" className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container">
                     <a className="navbar-brand" href="/">
-                        Tikala
+                        <img src="/static/assets/template/images/logo.svg" style={{width:"auto", height:"35px", padding:"-2%"}}/>
                     </a>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <div className="navbar-collapse" id="navbars-rs-food">
                          <ul className="navbar-nav ml-auto">
-                             <ActiveLink href="/">Home</ActiveLink>
-                             <ActiveLink href="/bistro">Tikala Bistro</ActiveLink>
-                             <ActiveLink href="/catering">Tikala Catering</ActiveLink>
+                            <li className="nav-item"><a className="nav-link"><ActiveLink href="/">Home</ActiveLink></a></li>
+                            <li className="nav-item"><a className="nav-link"><ActiveLink href="/bistro">Tikala Bistro</ActiveLink></a></li>
+                             <li className="nav-item"><a className="nav-link"><ActiveLink href="/catering">Tikala Catering</ActiveLink></a></li>
                              {/* <ActiveLink href="/about">About</ActiveLink> */}
-                             <ActiveLink href="/promo">Special Offer</ActiveLink>
-                             <ActiveLink href="/contact">Contact</ActiveLink>
+                             <li className="nav-item"><a className="nav-link"><ActiveLink href="/promo">Special Offer</ActiveLink></a></li>
+                             <li className="nav-item"><a className="nav-link"><ActiveLink href="/contact">Contact</ActiveLink></a></li>
                          </ul>
                     </div>
                 </Navbar.Collapse>
