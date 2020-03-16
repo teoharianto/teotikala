@@ -31,7 +31,7 @@ function PromoList() {
         {data.specialOffers.map(promo => (
             <div className="col-sm-12 col-md-4 col-lg-4" key={promo.id} style={{ marginBottom: '2rem'}}>
             <Card style={{ width: '18rem', marginBottom: '2rem', margin: '0 auto' }}>
-                <Card.Img variant="top" src={`http://103.56.149.4:1337${promo.offer_image.map(show => (show.url))}`} />
+                <Card.Img variant="top" src={`https://admin.tikala-bistro.com${promo.offer_image.map(show => (show.url))}`} />
                 <Card.Body>
                     <Card.Title>{promo.offer_name}</Card.Title>
                     <Card.Text>
@@ -50,7 +50,7 @@ function PromoList() {
           >
             <Modal.Header closeButton>
             {promo.offer_image.map(show => (
-                <Card.Img variant="top" src={`http://103.56.149.4:1337${show.url}`} />
+                <Card.Img variant="top" src={`https://admin.tikala-bistro.com${show.url}`} />
             ))}
               
             </Modal.Header>

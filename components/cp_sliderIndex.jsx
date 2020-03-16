@@ -20,7 +20,7 @@ query {
   }
 `;
 
-const imgSource = "http://103.56.149.4:1337/uploads/89dd7b724f494874ab3a16d6e15e9abf.jpg"
+const imgSource = "https://admin.tikala-bistro.com/uploads/89dd7b724f494874ab3a16d6e15e9abf.jpg"
 
 function SliderList() {
   const {data} = useQuery(SPECIAL_OFFERS);
@@ -39,7 +39,7 @@ function SliderList() {
                     
                      
                       {data.specialOffers.map(promo => (
-                      <div className="darken-background" data-src={`http://103.56.149.4:1337${promo.offer_image.map(show => (show.url))}`}>
+                      <div className="darken-background" data-src={`https://admin.tikala-bistro.com${promo.offer_image.map(show => (show.url))}`}>
                         <li className="text-center">
                           <div className="row" style={{ marginTop: "40vh" }}>
                             <div className="col-md-12">
