@@ -17,7 +17,7 @@ export default class AppDocument extends Document{
                         <meta name="keywords" content="" />
                         <meta name="description" content="" />
                         <meta name="author" content="" />
-
+                        <meta name="google-site-verification" content="ABgFp9H0RON4zUdFKX83zAQr29-AZd8JNRV2G_IJ7Ms" />
                         <link rel="icon" href="/static/assets/template/images/favicon.ico" />
                         <link rel="apple-touch-icon" href="/static/assets/template/images/apple-touch-icon.png" />
                         <link rel="stylesheet" href="/static/assets/template/css/bootstrap.min.css" />
