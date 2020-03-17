@@ -12,7 +12,7 @@ export default withData(props => {
                 <Head>
                     <title key="title">Tikala - Bistro</title>
                     <link rel="icon" href="/static/assets/template/images/favicon.ico" />
-                    <script async data-id="33184" src="https://cdn.widgetwhats.com/script.min.js"></script>
+                    <script async data-id="35739" src="https://cdn.widgetwhats.com/script.min.js"></script>
                     <script src="/static/assets/template/js/jquery-3.2.1.min.js"></script>
 	                <script src="/static/assets/template/js/popper.min.js"></script>
 	                <script src="/static/assets/template/js/bootstrap.min.js"></script>

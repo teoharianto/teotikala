@@ -11,7 +11,7 @@ export default withData(props => {
                 <Head>
                     <title key="title">Tikala - Promo</title>
                     <link rel="icon" href="/static/assets/template/images/favicon.ico" />
-                    <script async data-id="33184" src="https://cdn.widgetwhats.com/script.min.js"></script>
+                    <script async data-id="35739" src="https://cdn.widgetwhats.com/script.min.js"></script>
                 </Head>
                 <div className="all-page-title page-breadcrumb">
                     <div className="container text-center">
