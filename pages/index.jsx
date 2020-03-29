@@ -19,47 +19,11 @@ export default withData(props => {
 					<script async data-id="35739" src="https://cdn.widgetwhats.com/script.min.js"></script>
                 </Head>
 
-                {/* Slide */}
+        {/* Slide */}
 
-				<SliderList />
+		<SliderList />
 
-                {/* <div className="cover-slides" >
-                <ul>
-                <AutoplaySlider
-                    play={true}
-                    cancelOnInteraction={false} // should stop playing on user interaction
-                    interval={4000}
-                    bullets={false}
-                    fillParent={true}
-                    cssModule={extStyle}>
-                    <div className="darken-background" data-src="/static/assets/template/images/slider-01.jpg" >
-                    <li className="text-center">
-					<div className="row" style={{marginTop:"30vh"}}>
-						<div className="col-md-12">
-							<h1 className="m-b-20"><strong>Welcome To Tikala <br /> Bistro & Catering</strong></h1>
-							<p className="m-b-40">Taste sensations that you never get anywhere else.</p>
-							<p><a className="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservation</a></p>
-						</div>
-					</div>
-                    </li>
-					</div>
-					
-					<div className="darken-background" data-src="/static/assets/template/images/slider-02.jpg" >
-                    <li className="text-center">
-					<div className="row" style={{marginTop:"30vh"}}>
-						<div className="col-md-12">
-							<h1 className="m-b-20"><strong>Welcome To Tikala <br /> Bistro & Catering</strong></h1>
-							<p className="m-b-40">Taste sensations that you never get anywhere else.</p>
-							<p><a className="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservation</a></p>
-						</div>
-					</div>
-                    </li>
-                    
-                    </div>
-                </AutoplaySlider>
-                </ul>
-                
-                </div> */}
+               
 
         {/* About */}
         
@@ -67,7 +31,7 @@ export default withData(props => {
 		<div className="container">
 			<div className="row">
 				<div className="col-lg-6 col-md-6 col-sm-12">
-					<img src="/static/assets/template/images/about-img.jpg" alt="" className="img-fluid" />
+					<img src="/static/assets/template/images/2.jpg" alt="" className="img-fluid" />
 				</div>
 				<div className="col-lg-6 col-md-6 col-sm-12 text-center">
 					<div className="inner-column">
@@ -96,18 +60,33 @@ export default withData(props => {
 			<div className="tz-gallery">
 				<div className="row">
                     <div className="col-sm-12 col-md-4 col-lg-4">
-						<a className="lightbox" href="/static/assets/template/images/gallery-img-01.jpg">
-							<img className="img-fluid" src="/static/assets/template/images/gallery-img-01.jpg" alt="Gallery Images" />
+						<a className="lightbox" href="/static/assets/template/images/5.jpg">
+							<img className="img-fluid" src="/static/assets/template/images/5.jpg" alt="Gallery Images" />
 						</a>
 					</div>
 					<div className="col-sm-6 col-md-4 col-lg-4">
-						<a className="lightbox" href="/static/assets/template/images/gallery-img-02.jpg">
-							<img className="img-fluid" src="/static/assets/template/images/gallery-img-02.jpg" alt="Gallery Images" />
+						<a className="lightbox" href="/static/assets/template/images/6.jpg">
+							<img className="img-fluid" src="/static/assets/template/images/6.jpg" alt="Gallery Images" />
 						</a>
 					</div>
 					<div className="col-sm-6 col-md-4 col-lg-4">
-						<a className="lightbox" href="/static/assets/template/images/gallery-img-03.jpg">
-							<img className="img-fluid" src="/static/assets/template/images/gallery-img-03.jpg" alt="Gallery Images" />
+						<a className="lightbox" href="/static/assets/template/images/7.jpg">
+							<img className="img-fluid" src="/static/assets/template/images/7.jpg" alt="Gallery Images" />
+						</a>
+					</div>
+					<div className="col-sm-6 col-md-4 col-lg-4">
+						<a className="lightbox" href="/static/assets/template/images/9.jpg">
+							<img className="img-fluid" src="/static/assets/template/images/9.jpg" alt="Gallery Images" />
+						</a>
+					</div>
+					<div className="col-sm-6 col-md-4 col-lg-4">
+						<a className="lightbox" href="/static/assets/template/images/10.jpg">
+							<img className="img-fluid" src="/static/assets/template/images/10.jpg" alt="Gallery Images" />
+						</a>
+					</div>
+					<div className="col-sm-6 col-md-4 col-lg-4">
+						<a className="lightbox" href="/static/assets/template/images/11.jpg">
+							<img className="img-fluid" src="/static/assets/template/images/11.jpg" alt="Gallery Images" />
 						</a>
 					</div>
 				</div>
