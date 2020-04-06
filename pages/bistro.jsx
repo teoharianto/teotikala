@@ -55,11 +55,11 @@ export default withData(props => {
                 <div className="qt-box qt-background">
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-8 ml-auto mr-auto text-left">
-                                <p className="lead ">
+                            <div className="col-md-8 ml-auto mr-auto text-left" >
+                                <p className="lead " style={{color:"black"}}>
                                     " If you're not the one cooking, stay out of the way and compliment the chef. "
 					            </p>
-                                <span className="lead">Michael Strahan</span>
+                                <span className="lead" style={{color:"black"}}>Michael Strahan</span>
                             </div>
                         </div>
                     </div>
