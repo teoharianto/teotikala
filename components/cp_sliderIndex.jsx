@@ -11,8 +11,8 @@ const SPECIAL_OFFERS = gql`
 query {
     specialOffers{
     id
-    offer_name
-    offer_description
+    offer_name_carousel
+    offer_desc_carousel
     offer_image{
       url
     }
