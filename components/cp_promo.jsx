@@ -37,22 +37,19 @@ function PromoList() {
                     <Card.Text>
                         {promo.offer_description}
                     </Card.Text>
-                    <Button variant="primary" onClick={() => setShow(true)}>
+                    <Button variant="primary" key={promo.id} onClick={() => setShow(true)}>
                         See More
                     </Button>
-                </Card.Body>
-            </Card>
+                
             <Modal
             show={show}
+            
             onHide={() => setShow(false)}
             dialogClassName="modal-90w"
             aria-labelledby="example-custom-modal-styling-title"
           >
-            <Modal.Header closeButton>
-            {promo.offer_image.map(show => (
-                <Card.Img variant="top" src={`https://admin.tikala-bistro.com${show.url}`} />
-            ))}
-              
+            <Modal.Header closeButton>  
+            <Card.Img variant="top" src={`https://admin.tikala-bistro.com${promo.offer_image.map(show => (show.url))}`} /> 
             </Modal.Header>
             <Modal.Body>
             <Modal.Title id="example-custom-modal-styling-title">
@@ -63,6 +60,8 @@ function PromoList() {
               </p>
             </Modal.Body>
           </Modal>
+          </Card.Body>
+            </Card>
             </div>
         ))}
         </div>

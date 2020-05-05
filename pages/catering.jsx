@@ -41,7 +41,8 @@ export default withData(props => {
                             <div className="col-lg-12">
                                 <div className="heading-title text-center">
                                     <h2>Our Package</h2>
-                                    <p>The tasty taste never forget</p>
+                                    <p>Tikala will expand in catering business, so that customer can entrust us for their special event.</p>
+                                    <p>For now Tikala only give a company catering service. Please contact us for details.</p>
                                 </div>
                             </div>
                         </div>
@@ -49,29 +50,29 @@ export default withData(props => {
                             <div className="col-md-12">
                                 <div className="heading-title">
                                     <h2>Wedding Package</h2>
-                                    <p>The tasty taste never forget</p>
+                                    <p>Please contact us for details.</p>
                                 </div>
                             </div>
                         </div>
-                        <MenuCateringList />
+                        {/* <MenuCateringList /> */}
                         <div className="row" style={{marginBottom:"-5%",marginTop:"5%"}}>
                             <div className="col-md-12">
                                 <div className="heading-title">
                                     <h2>Birthday Package</h2>
-                                    <p>The tasty taste never forget</p>
+                                    <p>Please contact us for details.</p>
                                 </div>
                             </div>
                         </div>
-                        <MenuCateringList />
+                        {/* <MenuCateringList /> */}
                         <div className="row" style={{marginBottom:"-5%",marginTop:"5%"}}>
                             <div className="col-md-12">
                                 <div className="heading-title">
                                     <h2>Meeting Package</h2>
-                                    <p>The tasty taste never forget</p>
+                                    <p>Please contact us for details.</p>
                                 </div>
                             </div>
                         </div>
-                        <MenuCateringList />
+                        {/* <MenuCateringList /> */}
                     </div>
                 </div>
 
@@ -82,7 +83,7 @@ export default withData(props => {
              
 
                 {/* Quote */}
-                <div className="qt-box qt-background">
+                {/* <div className="qt-box qt-background">
                     <div className="container">
                         <div className="row">
                             <div className="col-md-8 ml-auto mr-auto text-left">
@@ -93,7 +94,7 @@ export default withData(props => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
         </Layout>
         )
     

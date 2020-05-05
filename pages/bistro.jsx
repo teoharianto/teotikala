@@ -52,7 +52,7 @@ export default withData(props => {
 
 
                 {/* Quote */}
-                <div className="qt-box qt-background">
+                {/* <div className="qt-box qt-background">
                     <div className="container">
                         <div className="row">
                             <div className="col-md-8 ml-auto mr-auto text-left" >
@@ -63,7 +63,7 @@ export default withData(props => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
         </Layout>
         )
     

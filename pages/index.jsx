@@ -37,9 +37,10 @@ export default withData(props => {
 					<div className="inner-column">
 						<h1>Welcome To <span>Tikala</span></h1>
 						<h4>Tikala Bistro and Catering</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque auctor suscipit feugiat. Ut at pellentesque ante, sed convallis arcu. Nullam facilisis, eros in eleifend luctus, odio ante sodales augue, eget lacinia lectus erat et sem. </p>
-						<p>Sed semper orci sit amet porta placerat. Etiam quis finibus eros. Sed aliquam metus lorem, a pellentesque tellus pretium a. Nulla placerat elit in justo vestibulum, et maximus sem pulvinar.</p>
-						<a className="btn btn-lg btn-circle btn-outline-new-white" href="/contact">Reservation</a>
+						<br />
+						<p>Tikala Bistro is a member of MTH Corp (MTH Global Investama, PT). Establish on April 2019, Tikala Bistro has a combine concept between Indonesian (especially Manado cuisine) and Western food.</p>
+						<p>Hygiene and quality is our utmost priority. With fresh ingredients, modern concept and healthy, because only the best food which come out from our warm kitchen.</p>
+						{/* <a className="btn btn-lg btn-circle btn-outline-new-white" href="/contact">Reservation</a> */}
 					</div>
 				</div>
 			</div>
@@ -53,7 +54,7 @@ export default withData(props => {
 				<div className="col-lg-12">
 					<div className="heading-title text-center">
 						<h2>Tikala's Gallery</h2>
-						<p>Blend of cozy ambience and the tasty menu</p>
+						<p>only the best food which come out from our warm kitchen</p>
 					</div>
 				</div>
 			</div>
