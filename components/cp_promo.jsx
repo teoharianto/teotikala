@@ -31,13 +31,15 @@ function PromoList() {
         {data.specialOffers.map(promo => (
             <div className="col-sm-12 col-md-4 col-lg-4" key={promo.id} style={{ marginBottom: '2rem'}}>
             <Card style={{ width: '18rem', marginBottom: '2rem', margin: '0 auto' }}>
-                <Card.Img variant="top" src={`https://admin.tikala-bistro.com${promo.offer_image.map(show => (show.url))}`} />
+            <a className="lightbox" href={`https://admin.tikala-bistro.com${promo.offer_image.map(show => (show.url))}`}>
+                <Card.Img  className="img-fluid" variant="top" src={`https://admin.tikala-bistro.com${promo.offer_image.map(show => (show.url))}`} />
+						</a>
                 <Card.Body>
                     <Card.Title>{promo.offer_name}</Card.Title>
                     <Card.Text>
                         {promo.offer_description}
                     </Card.Text>
-                    <Button variant="primary" key={promo.id} onClick={() => setShow(true)}>
+                    {/* <Button variant="primary" key={promo.id} onClick={() => setShow(true)}>
                         See More
                     </Button>
                 
@@ -59,7 +61,7 @@ function PromoList() {
               {promo.offer_description}
               </p>
             </Modal.Body>
-          </Modal>
+          </Modal> */}
           </Card.Body>
             </Card>
             </div>
