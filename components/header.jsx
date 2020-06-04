@@ -18,10 +18,10 @@ export default class Header extends React.Component {
                          <ul className="navbar-nav ml-auto">
                             <li className="nav-item"><a className="nav-link"><ActiveLink href="/">Home</ActiveLink></a></li>
                             <li className="nav-item"><a className="nav-link"><ActiveLink href="/bistro">Tikala Bistro</ActiveLink></a></li>
-                             <li className="nav-item"><a className="nav-link"><ActiveLink href="/catering">Tikala Catering</ActiveLink></a></li>
+                             <li className="nav-item"><a className="nav-link"><ActiveLink href="/catering">Tikala Katering</ActiveLink></a></li>
                              {/* <ActiveLink href="/about">About</ActiveLink> */}
-                             <li className="nav-item"><a className="nav-link"><ActiveLink href="/promo">Special Offer</ActiveLink></a></li>
-                             <li className="nav-item"><a className="nav-link"><ActiveLink href="/contact">Contact</ActiveLink></a></li>
+                             <li className="nav-item"><a className="nav-link"><ActiveLink href="/promo">Penawaran Spesial</ActiveLink></a></li>
+                             <li className="nav-item"><a className="nav-link"><ActiveLink href="/contact">Kontak</ActiveLink></a></li>
                          </ul>
                     </div>
                 </Navbar.Collapse>

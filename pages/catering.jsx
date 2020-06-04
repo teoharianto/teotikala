@@ -10,7 +10,7 @@ export default withData(props => {
         return(
             <Layout>
                 <Head>
-                    <title key="title">Tikala - Catering</title>
+                    <title key="title">Tikala - Katering</title>
                     <link rel="icon" href="/static/assets/template/images/favicon.ico" />
                     <script async data-id="33184" src="https://cdn.widgetwhats.com/script.min.js"></script>
                     <script src="/static/assets/template/js/jquery-3.2.1.min.js"></script>
@@ -28,7 +28,7 @@ export default withData(props => {
                     <div className="container text-center">
                         <div className="row">
                             <div className="col-lg-12">
-                                <h1>Catering Package</h1>
+                                <h1>Paket Katering</h1>
                             </div>
                         </div>
                     </div>
@@ -40,17 +40,17 @@ export default withData(props => {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="heading-title text-center">
-                                    <h2>Our Package</h2>
-                                    <p>Tikala will expand in catering business, so that customer can entrust us for their special event.</p>
-                                    <p>For now Tikala only give a company catering service. Please contact us for details.</p>
+                                    <h2>Paket Kami</h2>
+                                    <p>Tikala sedang dalam proses mengembangkan bisnis katering. Sehingga nantinya anda dapat mempercayakan acara anda kepada kami</p>
+                                    <p>Namun untuk saat ini Tikala memberikan layanan katering bagi segmen perusahaan. Silakan hubungi kami untuk detailnya.</p>
                                 </div>
                             </div>
                         </div>
                         <div className="row" style={{marginBottom:"-5%"}}>
                             <div className="col-md-12">
                                 <div className="heading-title">
-                                    <h2>Wedding Package</h2>
-                                    <p>Please contact us for details.</p>
+                                    <h2>Paket Pernikahan</h2>
+                                    <p>Hubungi kami untuk detailnya.</p>
                                 </div>
                             </div>
                         </div>
@@ -58,8 +58,8 @@ export default withData(props => {
                         <div className="row" style={{marginBottom:"-5%",marginTop:"5%"}}>
                             <div className="col-md-12">
                                 <div className="heading-title">
-                                    <h2>Birthday Package</h2>
-                                    <p>Please contact us for details.</p>
+                                    <h2>Paket Ulang Tahun</h2>
+                                    <p>Hubungi kami untuk detailnya.</p>
                                 </div>
                             </div>
                         </div>
@@ -67,8 +67,8 @@ export default withData(props => {
                         <div className="row" style={{marginBottom:"-5%",marginTop:"5%"}}>
                             <div className="col-md-12">
                                 <div className="heading-title">
-                                    <h2>Meeting Package</h2>
-                                    <p>Please contact us for details.</p>
+                                    <h2>Paket Rapat</h2>
+                                    <p>Hubungi kami untuk detailnya.</p>
                                 </div>
                             </div>
                         </div>

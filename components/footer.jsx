@@ -7,17 +7,17 @@ export default class Footer extends React.Component{
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-4 col-md-6">
-                        <h3>Opening hours</h3>
-                            <p className="lead"><span className="text-color">Everyday: </span>10.00 AM - 22.00 PM</p>
+                        <h3>Jam Buka</h3>
+                            <p className="lead"><span className="text-color">Setiap Hari : </span>10.00 AM - 22.00 PM</p>
                         </div>
                         <div className="col-lg-4 col-md-6">
-                        <h3>Contact information</h3>
-                            <p className="lead">Address : Jl. Suryopranoto No.73, RW.7, Petojo Selatan, Jakarta, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10160</p>
-                            <p className="lead"><a href="#">Phone : (021) 3520172</a></p>
+                        <h3>Informasi Kontak</h3>
+                            <p className="lead">Alamat : Jl. Suryopranoto No.73, RW.7, Petojo Selatan, Jakarta, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10160</p>
+                            <p className="lead"><a href="#">Telepon : (021) 3520172</a></p>
                             <p><a href="#"> </a></p>
                         </div>
                         <div className="col-lg-4 col-md-6">
-                            <h3>Subscribe</h3>
+                            <h3>Media Sosial</h3>
                             <div className="subscribe_form">
 					        </div>
                                 <ul className="list-inline f-social">

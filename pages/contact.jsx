@@ -16,7 +16,7 @@ export default class ContactPage extends React.Component {
                     <div className="container text-center">
                         <div className="row">
                             <div className="col-lg-12">
-                                <h1>Contact</h1>
+                                <h1>Kontak</h1>
                             </div>
                         </div>
                     </div>
@@ -28,7 +28,7 @@ export default class ContactPage extends React.Component {
                 <div class="row" >
                             <div class="col-lg-12">
                                 <div class="heading-title text-center">
-                                    <h2>Address</h2>
+                                    <h2>Alamat</h2>
                                 </div>
                             </div>
                         </div>
@@ -43,7 +43,7 @@ export default class ContactPage extends React.Component {
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="heading-title text-center">
-                                    <h2>Contact</h2>
+                                    <h2>Kontak</h2>
                                 </div>
                             </div>
                         </div>
@@ -53,23 +53,23 @@ export default class ContactPage extends React.Component {
                                     <div class="row">
                                         <div class="col-md-12">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" id="name" name="Nama  " placeholder="Your Name" required data-error="Please enter your name" />
+                                            <input type="text" class="form-control" id="name" name="Nama  " placeholder="Nama Anda" required data-error="Please enter your name" />
                                                 <div class="help-block with-errors"></div>
 								        </div>
                                         </div>
                                         <div class="col-md-12">
                                             <div class="form-group">
-                                                <input type="text" placeholder="Your Email" id="email" class="form-control" name="Email  " required data-error="Please enter your email" />
+                                                <input type="text" placeholder="Email Anda" id="email" class="form-control" name="Email  " required data-error="Please enter your email" />
                                                     <div class="help-block with-errors"></div>
 								            </div>
                                             </div>
                                             <div class="col-md-12">
                                                 <div class="form-group">
-                                                    <textarea class="form-control" id="message" placeholder="Your Message" name="Isi Pesan  "ows="4" data-error="Write your message" required></textarea>
+                                                    <textarea class="form-control" id="message" placeholder="Pesan Anda" name="Isi Pesan  "ows="4" data-error="Write your message" required></textarea>
                                                     <div class="help-block with-errors"></div>
                                                 </div>
                                                 <div class="submit-button text-center">
-                                                    <button class="btn btn-common" id="submit" type="submit" value="Send">Send Message</button>
+                                                    <button class="btn btn-common" id="submit" type="submit" value="Send">Kirim Pesan</button>
                                                     <div id="msgSubmit" class="h3 text-center hidden"></div>
                                                     <div class="clearfix"></div>
                                                 </div>
@@ -88,7 +88,7 @@ export default class ContactPage extends React.Component {
 				<div className="col-md-4">
 					<i className="fa fa-volume-control-phone"></i>
 					<div className="overflow-hidden">
-						<h4>Phone</h4>
+						<h4>Telepon</h4>
 						<p className="lead">
                         (021) 3520172
 						</p>
@@ -106,7 +106,7 @@ export default class ContactPage extends React.Component {
 				<div className="col-md-4">
 					<i className="fa fa-map-marker"></i>
 					<div className="overflow-hidden">
-						<h4>Location</h4>
+						<h4>Lokasi</h4>
 						<p className="lead">
                         Jl. Suryopranoto No.73, RW.7, Petojo Selatan, Jakarta, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10160
 						</p>

@@ -41,8 +41,8 @@ export default withData(props => {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="heading-title text-center">
-                                    <h2>Our Special Menu</h2>
-                                    <p>The tasty taste never forget</p>
+                                    <h2>Menu Spesial Kami</h2>
+                                    <p>Rasa yang tak terlupakan</p>
                                 </div>
                             </div>
                         </div>
