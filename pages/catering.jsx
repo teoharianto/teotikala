@@ -41,7 +41,7 @@ export default withData(props => {
                             <div className="col-lg-12">
                                 <div className="heading-title text-center">
                                     <h2>Paket Kami</h2>
-                                    <p>Tikala sedang dalam proses mengembangkan bisnis katering. Sehingga nantinya anda dapat mempercayakan acara anda kepada kami</p>
+                                    <p>Tikala sedang dalam proses mengembangkan bisnis katering, yang dengan ini nantinya anda dapat mempercayakan acara anda kepada kami.</p>
                                     <p>Namun untuk saat ini Tikala memberikan layanan katering bagi segmen perusahaan. Silakan hubungi kami untuk detailnya.</p>
                                 </div>
                             </div>
