@@ -38,31 +38,8 @@ function PromoList() {
                     <Card.Title>{promo.offer_name}</Card.Title>
                     <Card.Text>
                         {promo.offer_description}
-                    </Card.Text>
-                    {/* <Button variant="primary" key={promo.id} onClick={() => setShow(true)}>
-                        See More
-                    </Button>
-                
-            <Modal
-            show={show}
-            
-            onHide={() => setShow(false)}
-            dialogClassName="modal-90w"
-            aria-labelledby="example-custom-modal-styling-title"
-          >
-            <Modal.Header closeButton>  
-            <Card.Img variant="top" src={`https://admin.tikala-bistro.com${promo.offer_image.map(show => (show.url))}`} /> 
-            </Modal.Header>
-            <Modal.Body>
-            <Modal.Title id="example-custom-modal-styling-title">
-              {promo.offer_name}
-              </Modal.Title>
-              <p>
-              {promo.offer_description}
-              </p>
-            </Modal.Body>
-          </Modal> */}
-          </Card.Body>
+                    </Card.Text>       
+                </Card.Body>
             </Card>
             </div>
         ))}

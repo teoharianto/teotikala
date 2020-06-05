@@ -46,33 +46,29 @@ export default withData(props => {
                                 </div>
                             </div>
                         </div>
-                        <div className="row" style={{marginBottom:"-5%"}}>
-                            <div className="col-md-12">
-                                <div className="heading-title">
+                        
+                        <div className="row" style={{marginBottom:"5%"}}>
+                            <div className="col-md-4">
+                                <div className="heading-title text-center">
                                     <h2>Paket Pernikahan</h2>
                                     <p>Hubungi kami untuk detailnya.</p>
                                 </div>
                             </div>
-                        </div>
-                        {/* <MenuCateringList /> */}
-                        <div className="row" style={{marginBottom:"-5%",marginTop:"5%"}}>
-                            <div className="col-md-12">
-                                <div className="heading-title">
+                            <div className="col-md-4">
+                                <div className="heading-title text-center">
                                     <h2>Paket Ulang Tahun</h2>
                                     <p>Hubungi kami untuk detailnya.</p>
                                 </div>
                             </div>
-                        </div>
-                        {/* <MenuCateringList /> */}
-                        <div className="row" style={{marginBottom:"-5%",marginTop:"5%"}}>
-                            <div className="col-md-12">
-                                <div className="heading-title">
+                            <div className="col-md-4">
+                                <div className="heading-title text-center">
                                     <h2>Paket Rapat</h2>
                                     <p>Hubungi kami untuk detailnya.</p>
                                 </div>
                             </div>
                         </div>
                         {/* <MenuCateringList /> */}
+
                     </div>
                 </div>
 

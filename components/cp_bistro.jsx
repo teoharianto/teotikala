@@ -21,25 +21,27 @@ function MenuBistroList() {
   const {data} = useQuery(MENU_BISTROS);
   if (data && data.menuBistros) {
     
-    return (
-        
+    return (       
         <div className="row special-list">
-        {data.menuBistros.map(listBistro => (
-        <div className="col-lg-4 col-md-6 special-grid drinks">
-            <div className="gallery-single fix">
+          {data.menuBistros.map(listBistro => (
+            <div className="col-lg-4 col-md-6 special-grid drinks" style={{ marginBottom: '2rem'}}>
+              <Card style={{ width: '18rem', marginBottom: '2rem', margin: '0 auto' }}>
                 {listBistro.menu_image.map(showImage =>
-                <img src={`https://admin.tikala-bistro.com${showImage.url}`} className="img-fluid" alt="Image" />
+                  <a className="lightbox" href={`https://admin.tikala-bistro.com${showImage.url}`}>
+                    <Card.Img  className="img-fluid" variant="top" src={`https://admin.tikala-bistro.com${showImage.url}`} />
+						      </a>
                 )}
-                    <div className="why-text">
-                        <h4>{listBistro.menu_name}</h4>
-                        <p>{listBistro.menu_description}</p>
-                        <h5>{`IDR ${listBistro.menu_price}`}</h5>
-                    </div>
+                <Card.Body>
+                  <Card.Title><strong>{listBistro.menu_name}</strong></Card.Title>
+                    <Card.Text>
+                      {listBistro.menu_description}                    
+                    </Card.Text>
+                      <h3><strong>{`IDR ${listBistro.menu_price}`}</strong></h3>
+                  </Card.Body>
+              </Card>
             </div>
+          ))}
         </div>
-        ))}
-        </div>
-
     );
   }
   return <div>Loading...</div>;
