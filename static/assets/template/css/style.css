@@ -315,7 +315,8 @@ button:focus{
 -------------------------------------------------------------------*/
 
 .about-section-box{
-	padding: 70px 0px;
+    padding-top: 8em;
+    padding-bottom: 10px;
 }
 .about-section-box .img-fluid{
 	box-shadow: -10px -10px 0px #d0a772;
@@ -327,7 +328,7 @@ button:focus{
 	color: #010101;
 }
 .inner-column h1 span{
-	color: #d0a772;
+	color: #5e3d24;
 }
 .inner-column h4{
 	font-size: 16px;

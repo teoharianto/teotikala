@@ -8,7 +8,7 @@ export default class Footer extends React.Component{
                     <div className="row">
                         <div className="col-lg-4 col-md-6">
                         <h3>Jam Buka</h3>
-                            <p className="lead"><span className="text-color">Setiap Hari : </span>10.00 AM - 22.00 PM</p>
+                            <p className="lead"><span className="text-color">Selama masa New Normal <br/> Senin - Sabtu : </span>10.00 AM - 07.00 PM</p>
                         </div>
                         <div className="col-lg-4 col-md-6">
                         <h3>Informasi Kontak</h3>
