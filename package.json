@@ -50,7 +50,7 @@
     "interweave": "^12.5.0",
     "isomorphic-unfetch": "^3.0.0",
     "jsx-xml": "^0.2.3",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "mobile-detect": "^1.4.3",
     "modified-react-awesome-slider": "^1.4.0",
     "moment": "^2.24.0",
